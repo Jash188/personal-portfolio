@@ -333,7 +333,7 @@ span{
         padding: 2rem 3%;
     }
     section{
-        padding: 10rem 3%;
+       width: 100%;
     }
     .projects{
         padding: 10rem;
@@ -346,8 +346,12 @@ span{
     }
 }
 @media (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
     #menu{
         display: block;
+        margin-right: 0;
     }
     .navbar{
         position: absolute;
